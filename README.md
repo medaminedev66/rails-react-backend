@@ -1,24 +1,80 @@
-# README
+# Rails-react Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> In this project: I created React front-end with a Rails back-end and connect them to display a random message.
 
-Things you may want to cover:
+[react-rails-frontend link](https://github.com/medaminedev66/rails-react-frontend)
+## Built With
 
-* Ruby version
+- Ruby
+- Ruby on Rails
+- Postgresql
+- React
+- Redux
 
-* System dependencies
+## Getting Started
 
-* Configuration
+**To get a local copy up and running follow these simple example steps:**
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Rails](https://gorails.com/)
+- React
+- Redux
 
-* How to run the test suite
+### Rails Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+- Make sure you have Ruby on Rails set up properly on your computer
 
-* Deployment instructions
+``` sh 
+  git clone https://github.com/medaminedev66/rails-react-backend.git
+``` 
+``` sh 
+  cd budget-app
+```
 
-* ...
+### Install
+
+```sh
+  bundle install
+```
+
+### Run
+
+```
+  rails db:create
+```
+
+```
+  rails db:migrate
+```
+
+```
+  rails s
+```
+
+## Authors
+
+👤 **Amine Smahi**
+
+- GitHub: [@medaminedev66](https://github.com/medaminedev66)
+- Twitter: [@medaminesmahi](https://twitter.com/medaminesmahi)
+- LinkedIn: [Mohammed Amine Smahi ](https://www.linkedin.com/in/md-amine-smahi/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+- Feel free to check the [issues page](https://github.com/faizi2500/recipe-app/issues).
+
+
+
+## Show your support
+
+- Give a ⭐️ if you like this project!
+
+
+
+## Acknowledgments
+
+- Microverse for giving me this chance
